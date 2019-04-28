@@ -51,7 +51,7 @@ Disconnect the top green Debug output payload node in the top flow by clicking t
 
 You might need to scroll down in the debug pane to see the simplified view of temperatures.
 
- 
+  
 # 4. Create the flow : 
 get temprature and humidity data from sensors send it to the Ibm IoT platform then add it into a database.
 
@@ -59,9 +59,11 @@ to get the flow import "flow1" into your Node RED workspace
 
 verify that the data is added into cloudant
 # 5. Gather and Visualize Sensor Data:
-  # 5.1. Lunch ibm ito platform
-  # 5.2. create device type
-  # 5.2. create device type
+  5.1. Lunch ibm ito platform
+  5.2. create device type
+  5.3. create device
+  5.4. create Dashboar 
+
   
 # 6. Step furthur:
   - analyze sensore data in watson studio
