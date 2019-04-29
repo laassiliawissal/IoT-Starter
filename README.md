@@ -57,7 +57,7 @@ To verify that the data have been added correctly, Go back to the ibm dashboard 
 {image}
 
 # 5. Gather and Visualize Sensor Data into IBM IoT Platform:
-  5.1. Lunch ibm IoT Platform
+  ## 5.1. Lunch ibm IoT Platform
   Go back to the ibm dashboard -> cloud Foundary Apps -> your app name -> connections -> select the IoT Platform within the App -> Click on lunch button.
   {image}
   
