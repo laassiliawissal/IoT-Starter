@@ -25,7 +25,7 @@ Click the plus icon to add a new flow, double click and rename it Smart House. f
 
 now you 'll be able to see this basic flow.
 {image}
-
+![alt text](https://github.com/wissallaassiliabouchama/IoT-Starter/blob/wissallaassiliabouchama-patch-1/add%20new%20dataset.png)
 # 3. Simulate sensors data : 
 
 After you start your Internet of Things Platform Starter instance, open the temperature and humidity sensor simulator, from ibm.biz/iotsensor, so that you can connect it to the IBM IoT app.
