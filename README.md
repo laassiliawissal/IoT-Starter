@@ -19,7 +19,6 @@ In this first section, you'll deploy the Internet of Things Platform Starter in 
 Log into [IBM Cloud](https://ibm.biz/BdzE6G ) and click Catalog > Starter Kits > Internet of Things Platform Starter. Enter a name and host for your application. Both names must be unique. Then, click Create.
 
 ![alt text](https://github.com/wissallaassiliabouchama/IoT-Starter/blob/wissallaassiliabouchama-patch-1/create%20iot%20nde%20red%20starter%20kit.png)
-
 After the application launches, click Visit App URL -> go to the Node-RED flow editor. Answer the prompts in the Node-RED editor to secure it -> Click Go to your Node-RED flow editor.
 
 ![alt text](https://github.com/wissallaassiliabouchama/IoT-Starter/blob/wissallaassiliabouchama-patch-1/node%20red%20editor.png)
