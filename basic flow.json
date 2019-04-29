@@ -1,0 +1,1 @@
+[{"id":"73122811.5ab878","type":"ibmiot out","z":"e5cb800d.8dae1","authentication":"boundService","apiKey":"","outputType":"evt","deviceId":"RoomThermo1","deviceType":"devicetype1","eventCommandType":"event","format":"json","data":"temp:10","qos":"","name":"Send temp sensor data to IBM IoT Platform","service":"registered","x":647.0000991821289,"y":285.3333396911621,"wires":[]}]
