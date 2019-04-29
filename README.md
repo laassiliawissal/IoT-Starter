@@ -1,22 +1,19 @@
 # IoT-Starter
-This tutorial walks you through simulating an IoT device, gathering data in the Watson IoT Platform, exploring data and creating visualizations.
+This tutorial walks you through simulating an IoT device, gathering data in the Watson IoT Platform, exploring data and creating visualizations, from one hand. Frome the other hand, it simulate a smart home, that can be able to warn you if there is a fire at home, it turns on/off you air-conditionner depending on the room temprature and can water you internal flower spots if it sense that spots have no Humidity.  
 
-# Objectives:
-  - Set up IoT Simulator.
-  - Send collection data to Watson IoT Platform.
-  - Create visualizations.
 # Services used
 This tutorial uses the following runtimes and services:
 
-- IBM Watson™ IoT Platform
+- IBM Watson IoT Platform
 - Node RED
-- IBM Cloudant  
+- IBM Cloudant 
+- Simulated Sensors from ibm.biz/iotsensor
 
 # 1. Create a Free Ibm Cloud Account :
 click bellow to create an ibm cloud account https://ibm.biz/BdzE6G 
 you will need a valid email adress so that you can confirm you registration.
 
-# 2. Create the Internet of Things Platform Starter (and connect to a virtual sensor)
+# 2. Create the Internet of Things Platform Starter
 
 In this first section, you'll deploy the Internet of Things Platform Starter in IBM Cloud, which is a boilerplate application, and connect it to a virtual sensor on a web page.
 
@@ -57,18 +54,19 @@ To verify that the data have been added correctly, Go back to the ibm dashboard 
 {image}
 
 # 5. Gather and Visualize Sensor Data into IBM IoT Platform:
+you can follow the steps bellow or you can follow this tutorial: https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-gather-visualize-analyze-iot-data
   ## 5.1. Lunch ibm IoT Platform
   Go back to the ibm dashboard -> cloud Foundary Apps -> your app name -> connections -> select the IoT Platform within the App -> Click on lunch button.
   {image}
   
-  5.2. create device type
+  ## 5.2. create device type
   From the IoT Platform homepage select Add Device Type -> choose Device -> give a name -> click -> next -> Done.
   {}
   
-  5.3. create device
+  ## 5.3. create device
   From the IoT Platform HomePage click on Browse menu -> click on Add Device -> Select Device type you just created -> give a device ID -> add Authentification Token -> Done
   
-  5.4. Send Data to your New Created Device
+  ## 5.4. Send Data to your New Created Device
   Copy your device Id and Device type, and Go back to Node-Red Flow Editor, doucle click on 'Send temp sensor data to IBM IoT Platform'    node and update the node info :
   
    Authentication: Bluemix Service
@@ -82,8 +80,8 @@ To verify that the data have been added correctly, Go back to the ibm dashboard 
    after updating click deploy, lets Make sure sensor data is sent to Ibm IoT platformand, Go back to the IoT Platform -> Browse Devices -> Click on your Device name -> Recent Events, you should be able to see your temprature sensor data :
    {image}
     
-  5.5. create Dashboar 
-  Now, click on the Broard icon -> create New Board -> Name it smart house -> Click on Add new Card Button -> choose a chart type 'Gauge' for expl -> select your device from the device list -> add new dataset.
+  ## 5.5. create a Sensor Data Dashboard
+  Now, click on the Broard icon -> create New Board -> Name it smart house -> Click on Add new Card Button -> choose a chart type  'Gauge' for expl -> select your device from the device list -> add new dataset.
   data set refer to an important information :
   - Event : is the same we just added 'event1'
   - Property : is the the variable we want to display in the Gauge here is 'temp'
@@ -94,8 +92,20 @@ To verify that the data have been added correctly, Go back to the ibm dashboard 
  
   {data set info}
   
+  After entering he dataset info click next -> Done, now you should be able to vusualise temp sensor data from your simulated device to Ibm IoT Platform.
 
-  
+# 7. Advanced Smart room:
+After we've learned the basics, let's create our simulated smart room, 
+## 7.1. get the smart home flow
+copy flow2 into your clipboard and import to your Node-RED flow editor.
+## 7.2. create new device types and devices into your Ibm IoT Platform
+## 7.3. Create new Cards into the Board section in IBM IoT Platform
+
 # 6. Step furthur:
-  - analyze sensore data in watson studio
-  - Add watson services into NodeRed Flow
+  - analyze sensore data in watson studio:
+    + Create a fun, simple IoT accelerometer game: https://developer.ibm.com/tutorials/iot-simple-iot-accelerometer-game/
+    + Develop the IoT apps for a home automation system: https://developer.ibm.com/tutorials/iot-smart-home-03/
+    + Build a cognitive IoT app in just 7 steps :https://developer.ibm.com/tutorials/iot-cognitive-iot-app-machine-learning/
+  
+  - Add watson services into NodeRed Flow:
+    + Build a spoken universal translator using Node-RED and Watson AI services : https://developer.ibm.com/tutorials/build-universal-translator-nodered-watson-ai-services/
