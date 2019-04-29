@@ -7,16 +7,16 @@ This tutorial uses the following runtimes and services:
 - IBM Watson IoT Platform
 - Node RED
 - IBM Cloudant
-- Simulated Sensors from ibm.biz/iotsensor
+- [Simulated Sensors](ibm.biz/iotsensor) 
 
 # 1. Create a Free Ibm Cloud Account :
-Click bellow to create an ibm cloud account [link](https://ibm.biz/BdzE6G ) you will need a valid email adress so that you can confirm you registration.
+Click bellow to create an [ibm cloud account](https://ibm.biz/BdzE6G ) you will need a valid email address so that you can confirm you registration.
 
 # 2. Create the Internet of Things Platform Starter
 
 In this first section, you'll deploy the Internet of Things Platform Starter in IBM Cloud, which is a boilerplate application, and connect it to a virtual sensor on a web page.
 
-Log into IBM Cloud https://ibm.biz/BdzE6G and click Catalog > Starter Kits > Internet of Things Platform Starter. Enter a name and host for your application. Both names must be unique. Then, click Create.
+Log into [IBM Cloud](https://ibm.biz/BdzE6G ) and click Catalog > Starter Kits > Internet of Things Platform Starter. Enter a name and host for your application. Both names must be unique. Then, click Create.
 
 ![alt text](https://github.com/wissallaassiliabouchama/IoT-Starter/blob/wissallaassiliabouchama-patch-1/create%20iot%20nde%20red%20starter%20kit.png)
 
@@ -32,7 +32,7 @@ now you 'll be able to see this basic flow.
 
 # 3. Simulate sensors data : 
 
-After you start your Internet of Things Platform Starter instance, open the temperature and humidity sensor simulator, from ibm.biz/iotsensor, so that you can connect it to the IBM IoT app.
+After you start your Internet of Things Platform Starter instance, open the temperature and humidity [sensor simulator](ibm.biz/iotsensor), so that you can connect it to the IBM IoT app.
 
 Copy the device id value in the upper-right corner of the virtual sensor. In this example, the value is a547824b3b3e.
 
@@ -56,7 +56,7 @@ To verify that the data have been added correctly, Go back to the ibm dashboard 
 ![alt text](https://github.com/wissallaassiliabouchama/IoT-Starter/blob/wissallaassiliabouchama-patch-1/cloudant%20db%20smarthousedb%20data.png)
 
 # 5. Gather and Visualize Sensor Data into IBM IoT Platform:
-you can follow the steps bellow or you can follow this tutorial: https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-gather-visualize-analyze-iot-data
+you can follow the steps bellow or you can follow this [tutorial](https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-gather-visualize-analyze-iot-data)
   ## 5.1. Lunch ibm IoT Platform
   Go back to the ibm dashboard -> cloud Foundary Apps -> your app name -> connections -> select the IoT Platform within the App -> Click on lunch button.
   
@@ -127,9 +127,9 @@ Create more cards into the board you created to match the cards in the image bel
 
 # 6. What's next:
   - analyze sensore data in watson studio:
-    + Create a fun, simple IoT accelerometer game: https://developer.ibm.com/tutorials/iot-simple-iot-accelerometer-game/
-    + Develop the IoT apps for a home automation system: https://developer.ibm.com/tutorials/iot-smart-home-03/
-    + Build a cognitive IoT app in just 7 steps :https://developer.ibm.com/tutorials/iot-cognitive-iot-app-machine-learning/
+    + [Create a fun, simple IoT accelerometer game] (https://developer.ibm.com/tutorials/iot-simple-iot-accelerometer-game/)
+    + [Develop the IoT apps for a home automation system ] (https://developer.ibm.com/tutorials/iot-smart-home-03/)
+    + [Build a cognitive IoT app in just 7 steps ] (https://developer.ibm.com/tutorials/iot-cognitive-iot-app-machine-learning/)
   
   - Add watson services into NodeRed Flow:
-    + Build a spoken universal translator using Node-RED and Watson AI services : https://developer.ibm.com/tutorials/build-universal-translator-nodered-watson-ai-services/
+    + [Build a spoken universal translator using Node-RED and Watson AI services] (https://developer.ibm.com/tutorials/build-universal-translator-nodered-watson-ai-services/)
