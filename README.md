@@ -1,5 +1,5 @@
 # IoT-Starter
-This tutorial walks you through simulating an IoT device, gathering data in the Watson IoT Platform, exploring data and creating visualizations, from one hand. Frome the other hand, it simulate a smart home, that can be able to warn you if there is a fire at home, it turns on/off you air-conditionner depending on the room temprature and can water you internal flower spots if it sense that spots have no Humidity.  
+This tutorial walks you through simulating an IoT device, gathering data in the Watson IoT Platform, exploring data and creating visualizations, this is from one hand. From the other hand, it simulate a smart home, that can be able to warn you if there is a fire at home, it turns on/off you air-conditionner depending on the room temprature and can water you internal flower spots if it sense that spots have no Humidity.  
 
 # Services used
 This tutorial uses the following runtimes and services:
