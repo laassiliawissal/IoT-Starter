@@ -6,7 +6,7 @@ This tutorial uses the following runtimes and services:
 
 - IBM Watson IoT Platform
 - Node RED
-- IBM Cloudant 
+- IBM Cloudant ![Alt text](ibm.biz/iotsensor?raw=true "link")
 - Simulated Sensors from ibm.biz/iotsensor
 
 # 1. Create a Free Ibm Cloud Account :
@@ -19,39 +19,38 @@ In this first section, you'll deploy the Internet of Things Platform Starter in 
 
 Log into IBM Cloud https://ibm.biz/BdzE6G and click Catalog > Starter Kits > Internet of Things Platform Starter. Enter a name and host for your application. Both names must be unique. Then, click Create.
 
-After the application launches, click Visit App URL and then on go to the Node-RED flow editor. Answer the prompts in the Node-RED editor to secure it. Click Go to your Node-RED flow editor.
+![alt text](https://github.com/wissallaassiliabouchama/IoT-Starter/blob/wissallaassiliabouchama-patch-1/create%20iot%20nde%20red%20starter%20kit.png)
 
-Click the plus icon to add a new flow, double click and rename it Smart House. from github repository, copy flow1.txt into your clipboard. Go back to the NodeRed flow Editor and Click on hamburger menu on the left->import->clipboard -> paste flow1 that you copied. 
+After the application launches, click Visit App URL -> go to the Node-RED flow editor. Answer the prompts in the Node-RED editor to secure it -> Click Go to your Node-RED flow editor.
+
+![alt text](https://github.com/wissallaassiliabouchama/IoT-Starter/blob/wissallaassiliabouchama-patch-1/node%20red%20editor.png)
+
+Click the plus icon to add a new flow, double click and rename it 'Smart House Basics'. from github repository, copy flow1.txt into your clipboard. Go back to the NodeRed flow Editor and Click on hamburger menu on the left->import->clipboard -> paste flow1 that you copied. 
 
 now you 'll be able to see this basic flow.
-{image}
-![alt text](https://github.com/wissallaassiliabouchama/IoT-Starter/blob/wissallaassiliabouchama-patch-1/add%20new%20dataset.png)
+
+![alt text](https://github.com/wissallaassiliabouchama/IoT-Starter/blob/wissallaassiliabouchama-patch-1/debug%20data.png)
+
 # 3. Simulate sensors data : 
 
 After you start your Internet of Things Platform Starter instance, open the temperature and humidity sensor simulator, from ibm.biz/iotsensor, so that you can connect it to the IBM IoT app.
 
 Copy the device id value in the upper-right corner of the virtual sensor. In this example, the value is a547824b3b3e.
 
+![alt text](https://github.com/wissallaassiliabouchama/IoT-Starter/blob/wissallaassiliabouchama-patch-1/temp%20sensor.png)
+
 In the flow editor, double-click the 'IBM IoT Sensor Data In' node.
 
 Paste the ID of the sensor into 'Device Id' field and choose Quick Start into the 'Authentication' field. Click 'Done' and then click 'deploy' button in the upper-right corner to deploy the flow.
-{image}
 
 Go to the virtual sensor and increase the temperature to 41° C or more. in the debug pane you'll see the increased value of temperature.
 
-(# 4. Create the flow : 
-get temprature and humidity data from sensors send it to the Ibm IoT platform then add it into a database.
-
-to get the flow import "flow1" into your Node RED workspace 
-
-verify that the data is added into cloudant!)
-
 # 4. Store Sensor Data into Cloudant: 
-In the Node-RED flow Editor, click on filter nodes on the left, and look for Cloudant, choose the one with output property, drag and drop into the your flow. I've already done it for you, now, double click on Cloudant and pick a database name "smarthousedb".
+Now, double click on "Cloudant" node and pick a database name "smarthousedb".
 
 To verify that the data have been added correctly, Go back to the ibm dashboard -> cloud Foundary Apps -> your app name -> connections -> select the cloudant db connected to your app name -> click on the alias on the top-right-> click on lunch db dashboard -> click on the database icon -> click on your database name -> you should see your sensor data added succesfully.
 
-{image}
+![alt text](https://github.com/wissallaassiliabouchama/IoT-Starter/blob/wissallaassiliabouchama-patch-1/app%20connection.png)
 
 # 5. Gather and Visualize Sensor Data into IBM IoT Platform:
 you can follow the steps bellow or you can follow this tutorial: https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-gather-visualize-analyze-iot-data
