@@ -24,7 +24,7 @@ After the application launches, click Visit App URL -> go to the Node-RED flow e
 
 ![alt text](https://github.com/wissallaassiliabouchama/IoT-Starter/blob/wissallaassiliabouchama-patch-1/node%20red%20editor.png)
 
-Click the plus icon to add a new flow, double click and rename it 'Smart House Basics'. from github repository, copy flow1.txt into your clipboard. Go back to the NodeRed flow Editor and Click on hamburger menu on the left->import->clipboard -> paste flow1 that you copied. 
+Click the plus icon to add a new flow, double click and rename it 'Smart House Basics'. from github repository, copy [basic flow.json](https://github.com/wissallaassiliabouchama/IoT-Starter/blob/master/basic%20flow.json) into your clipboard. Go back to the NodeRed flow Editor and Click on hamburger menu on the left->import->clipboard -> paste flow1 that you copied. 
 
 now you 'll be able to see this basic flow.
 
@@ -104,7 +104,7 @@ you can follow the steps bellow or you can follow this [tutorial](https://cloud.
 # 7. Advanced Smart room:
 After we've learned the basics, let's create our simulated smart room that can be able to warn you if there is a fire at home, it turns on/off you air-conditionner depending on the room temprature and can water you internal flower spots if it sense that spots have no Humidity. In order to that follow these steps.
 ## 7.1. get the smart home flow
-copy "smart house flows" into your clipboard and import to your Node-RED flow editor. you should see the flow in the image bellow:
+copy [smart house flows.json](https://github.com/wissallaassiliabouchama/IoT-Starter/blob/master/smart%20house%20flows.json) into your clipboard and import to your Node-RED flow editor. you should see the flow in the image bellow:
 
 ![alt text](https://github.com/wissallaassiliabouchama/IoT-Starter/blob/wissallaassiliabouchama-patch-1/smart%20house%20simulation.png)
 
