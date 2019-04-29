@@ -10,7 +10,7 @@ This tutorial uses the following runtimes and services:
 - Simulated Sensors from ibm.biz/iotsensor
 
 # 1. Create a Free Ibm Cloud Account :
-click bellow to create an ibm cloud account https://ibm.biz/BdzE6G 
+click bellow to create an ibm cloud account [here](https://ibm.biz/BdzE6G )
 you will need a valid email adress so that you can confirm you registration.
 
 # 2. Create the Internet of Things Platform Starter
