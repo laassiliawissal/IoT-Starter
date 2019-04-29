@@ -88,7 +88,7 @@ you can follow the steps bellow or you can follow this tutorial: https://cloud.i
   
   {image function}
   
-  - Type : is the type of this property her is 'Number'
+  - Type : is the type of this property here is 'Number'
  
   {data set info}
   
@@ -97,11 +97,24 @@ you can follow the steps bellow or you can follow this tutorial: https://cloud.i
 # 7. Advanced Smart room:
 After we've learned the basics, let's create our simulated smart room, 
 ## 7.1. get the smart home flow
-copy flow2 into your clipboard and import to your Node-RED flow editor.
+copy flow2 into your clipboard and import to your Node-RED flow editor. you should see the flow in the image bellow
+{}
 ## 7.2. create new device types and devices into your Ibm IoT Platform
-## 7.3. Create new Cards into the Board section in IBM IoT Platform
+device type : 
+- humidity
+- thermostate
+devices :
+- humiditySensorRoom1
+- humiditySensorRoom2
+- tempSensorRoom1
+- tempSensorRoom2
+{}
 
-# 6. Step furthur:
+## 7.3. Create new Cards into the Board section in IBM IoT Platform
+Create more cards into the board you created to match the cards in the image bellow. pay attention to the Event and property, they should be the same in the IoT out node in flow2, the event in flow2 case is 'event' and the property change depending on the value you want to showcase in you Card.
+{image}
+
+# 6. What's next:
   - analyze sensore data in watson studio:
     + Create a fun, simple IoT accelerometer game: https://developer.ibm.com/tutorials/iot-simple-iot-accelerometer-game/
     + Develop the IoT apps for a home automation system: https://developer.ibm.com/tutorials/iot-smart-home-03/
