@@ -63,6 +63,7 @@ verify that the data is added into cloudant
   5.2. create device type
   5.3. create device
   5.4. create Dashboar 
+  
 
   
 # 6. Step furthur:
