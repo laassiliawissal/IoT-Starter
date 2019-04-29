@@ -127,9 +127,9 @@ Create more cards into the board you created to match the cards in the image bel
 
 # 6. What's next:
   - analyze sensore data in watson studio:
-    + [Create a fun, simple IoT accelerometer game] (https://developer.ibm.com/tutorials/iot-simple-iot-accelerometer-game/)
-    + [Develop the IoT apps for a home automation system ] (https://developer.ibm.com/tutorials/iot-smart-home-03/)
-    + [Build a cognitive IoT app in just 7 steps ] (https://developer.ibm.com/tutorials/iot-cognitive-iot-app-machine-learning/)
+    + [Create a fun, simple IoT accelerometer game](https://developer.ibm.com/tutorials/iot-simple-iot-accelerometer-game/)
+    + [Develop the IoT apps for a home automation system ](https://developer.ibm.com/tutorials/iot-smart-home-03/)
+    + [Build a cognitive IoT app in just 7 steps ](https://developer.ibm.com/tutorials/iot-cognitive-iot-app-machine-learning/)
   
   - Add watson services into NodeRed Flow:
-    + [Build a spoken universal translator using Node-RED and Watson AI services] (https://developer.ibm.com/tutorials/build-universal-translator-nodered-watson-ai-services/)
+    + [Build a spoken universal translator using Node-RED and Watson AI services](https://developer.ibm.com/tutorials/build-universal-translator-nodered-watson-ai-services/)
