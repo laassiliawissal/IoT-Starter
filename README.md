@@ -131,3 +131,4 @@ Create more cards into the board you created to match the cards in the image bel
   
   - Add watson services into NodeRed Flow:
     + [Build a spoken universal translator using Node-RED and Watson AI services](https://developer.ibm.com/tutorials/build-universal-translator-nodered-watson-ai-services/)
+    + [Integrate Watson Assistant with line](https://developer.ibm.com/tutorials/integrate-watson-assistant-with-line/)
