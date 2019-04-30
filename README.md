@@ -29,7 +29,8 @@ now you 'll be able to see this basic flow.
 
 # 3. Simulate sensors data : 
 
-After you start your Internet of Things Platform Starter instance, open the temperature and humidity [sensor simulator](ibm.biz/iotsensor), so that you can connect it to the IBM IoT app.
+After you start your Internet of Things Platform Starter instance, open the temperature and humidity 
+[sensor simulator](ibm.biz/iotsensor), so that you can connect it to the IBM IoT app.
 
 Copy the device id value in the upper-right corner of the virtual sensor. In this example, the value is a547824b3b3e.
 
@@ -123,7 +124,7 @@ Create more cards into the board you created to match the cards in the image bel
 ![alt text](https://github.com/wissallaassiliabouchama/IoT-Starter/blob/wissallaassiliabouchama-patch-1/smart%20house%20temprature.png)
 ![alt text](https://github.com/wissallaassiliabouchama/IoT-Starter/blob/wissallaassiliabouchama-patch-1/smart%20house%20humidity.png)
 
-# 6. What's next:
+# 8. What's next:
   - analyze sensore data in watson studio:
     + [Create a fun, simple IoT accelerometer game](https://developer.ibm.com/tutorials/iot-simple-iot-accelerometer-game/)
     + [Develop the IoT apps for a home automation system ](https://developer.ibm.com/tutorials/iot-smart-home-03/)
