@@ -29,8 +29,7 @@ now you 'll be able to see this basic flow.
 
 # 3. Simulate sensors data : 
 
-After you start your Internet of Things Platform Starter instance, open the temperature and humidity 
-[sensor simulator](ibm.biz/iotsensor), so that you can connect it to the IBM IoT app.
+After you start your Internet of Things Platform Starter instance, open the temperature and humidity sensor simulator from ibm.biz/iotsensor, so that you can connect it to the IBM IoT app.
 
 Copy the device id value in the upper-right corner of the virtual sensor. In this example, the value is a547824b3b3e.
 
